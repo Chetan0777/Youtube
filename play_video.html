@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="play_video.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="youtube.css">
+    <title>Youtube</title>
+</head>
+<body onload="play_video()">
+    <div id="navbar">
+        <div id="img_div">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/bars-1440391-1216351.png" style="height: 24px; width:24px;" alt="">
+            <a href="index.html"><img src="/images/youtube.jpeg" style="width: 120px; height:56px" alt=""></a>
+        </div>
+        <div id="search_div">
+            <input type="search" id="search" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true" onclick="search()" style="border: 1px solid grey; width:70px; height:43px; display: flex; justify-content: center;align-items: center; background-color: lightgray;"></i>
+        </div>
+        <img src="https://i.pinimg.com/originals/74/ce/14/74ce14befb22695743659cf8a8290c2b.png" id="mic" alt="">
+        <img src="images/navbar.png" id="png" alt="">
+    </div>
+<div id="container">
+    <div id="left_div">
+        <div id="mainVideo">
+            <iframe width="650"
+            height="520" 
+            title="Episode 156 - Taarak Mehta Ka Ooltah Chashmah | Full Episode | तारक मेहता का उल्टा चश्मा" 
+            frameborder="0" 
+            id="playVideo";
+            allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+           </iframe>
+        </div>
+        <div id="heading"></div>
+        <img src="images/like.png" id="like" alt="">
+        <div id="sub">
+            <img src="images/channellog.png" style="height: 80px; width:80px;" alt="">
+            <div id="details">
+                <h3>Youtube</h3>
+                <p style="display: flex; font-size: 15px;">900M<span style="padding-left: 5px;"> Subscribers</span></p>
+            </div>
+            <img src="images/subscribe.png"  id="subscribe" style="width: 137px; height:65px" alt="">
+        </div>
+        <div class="vid-description">
+            <p id="des">Channel that make learning easy<br><br>
+
+                Thanks to SoFi for sponsoring the video! Enter to win $10,000: https://sofi.app.link/airrack<br>
+                Must download & open an account to enter.<br>
+                T&Cs: https://bit.ly/3ynn2Z9<br><br>
+                
+                Follow me on Instagram!<br>
+                INSTAGRAM ▶️ https://urlgeni.us/instagram/jBHg<br><br>
+                
+                FOLLOW MY FRIENDS:<br>
+                Mack: https://www.instagram.com/mack<br>
+                Tyler: https://www.youtube.com/c/tylerblanchard<br><br>
+                
+                Outtro song ▶️ Axel Thesleff - Bad Karma<br>
+                YouTube: https://bit.ly/3k6Uadj<br>
+                Spotify: https://spoti.fi/3odq3TN<br>
+                Instagram: https://bit.ly/3lsccaz<br>
+            </p>
+            <hr>
+            <h4>134 comments</h4>
+
+            <div class="add-comment">
+                <img src="images/Jack.png" alt="">
+                <input type="text" placeholder="Write comments...">
+            </div>
+            <div class="old-comment">
+                <img src="images/megan.png" alt="">
+                <div>
+                    <h3>Megha <span>2 days ago</span></h3>
+                    <p>Awesome video</p>
+                    <div class="cmt-sction">
+                        <img src="images/thumb.png" alt="">
+                        <span>244</span>
+                        <img src="images/dislike.png" alt="">
+                        <span>2</span>
+                        <span>REPLY</span>
+                        <a href="">All Replies</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="old-comment">
+                <img src="images/Jack.png" alt="">
+                <div>
+                    <h3>Suraj <span>2 days ago</span></h3>
+                    <p>Superb Video</p>
+                    <div class="cmt-sction">
+                        <img src="images/thumb.png" alt="">
+                        <span>244</span>
+                        <img src="images/dislike.png" alt="">
+                        <span>2</span>
+                        <span>REPLY</span>
+                        <a href="">All Replies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="right_div">
+    </div>
+</div>
+</body>
+</html>
+<script src="play_video.js"></script>
